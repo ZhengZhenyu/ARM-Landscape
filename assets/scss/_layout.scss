@@ -15,6 +15,11 @@
     background-color: darkcyan;
 }
 
+.bgorange {
+	@extend .bgpurple;
+		background-color: rgb(245, 149, 39);
+	}
+
 .bgbrown {
 	@extend .bgpurple;
 		background-color: rgb(124, 43, 5);
@@ -392,6 +397,13 @@
     border-left: 2px solid green;
 	border-right: 2px solid green;
 	border-bottom: 2px solid green;
+}
+
+.projects-list-middle {
+    @extend .projects-list-bigdata;
+    border-left: 2px solid rgb(245, 149, 39);
+    border-right: 2px solid rgb(245, 149, 39);
+    border-bottom: 2px solid rgb(245, 149, 39);
 }
 
 .projects-list-web {
