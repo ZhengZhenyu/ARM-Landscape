@@ -15,21 +15,29 @@
 				<article>
 					<div class="project_section">OVERVIEW</div>
 					<h1>
-						<a href="{{ page.project.url | prepend: site.baseurl }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
+						<a href="{{ page.project.project_official_url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
 					</h1>
 					<div class="overview_container_out">
 						<div class="overview_container_in">
-							<p>{{ page.project.overview }}</p>
+							<p style="font-size: 1.5rem;font-weight: 600;">{{ page.project.overview }}</p>
 						</div>
 						<div class="overview_img">
 							<img src="{{ page.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
 						</div>
 					</div>
+					<div style="display: flex; flex-direction: row; align-items: center;">
+						<div>
+							<p style="margin-left: 4rem; font-size: 16px; font-weight: 400;"> {{ page.project.title }} offcial site: </p>
+						</div>
+						<h7>
+							<a href="{{ page.project.project_official_url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.project_official_url }}</a>
+						</h7>
+					</div>
 					<hr class="project_section_line">
 					<div class="project_section">DETAILS</div>
 					{% if page.supported_releases %}
 					<div class="project_detail_title">
-						<h5>Supported Releases</h5>
+						<h5>Arm Supported Releases</h5>
 					</div>
 					<div style="padding-left: 2rem; background: #d6d6d650; margin-left: 2rem; margin-right: 2rem;">
 						<ul class="release_list">
@@ -42,7 +50,7 @@
 					</div>
 					{% endif %}
 					<div class="project_detail_title">
-					    <h5>Project CI Status</h5>
+					    <h5>Project Arm CI Status</h5>
 				    </div>
 					<div style="padding-top: 0.5rem; padding-bottom: 0.5rem; padding-left: 2rem; background: #d6d6d650; margin-left: 2rem; margin-right: 2rem; font-size: 15px;
 					font-weight: 400;">
@@ -86,7 +94,7 @@
 					{% endif %}
 					{% if page.work_items %}
 					<div class="project_detail_title">
-					    <h5>Work Items</h5>
+					    <h5>Arm Related Work Items</h5>
 					</div>
 					<div style="padding-left: 2rem; background: #d6d6d650; margin-left: 2rem; margin-right: 2rem;"">
 						<ul class="work_list">
@@ -100,7 +108,7 @@
 					{% endif %}
 					{% if page.events %}
 					<div class="project_detail_title">
-						<h5>News and Events</h5>
+						<h5>Arm Related News and Events</h5>
 					</div>
 					<div style="padding-left: 2rem; background: #d6d6d650; margin-left: 2rem; margin-right: 2rem;"">
 						<ul class="event_list">
