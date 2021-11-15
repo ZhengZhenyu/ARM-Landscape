@@ -5,11 +5,9 @@ tagline: "Landscape"
 description: "Landscape"
 keywords: "Landscape"
 email: "zheng.zhenyu@outlook.com"
-github: "https://kunpengcompute.github.io/"
-issue: "https://github.com/kunpengcompute/arm-landscape/issues"
 
 # Site config
-baseurl: "/arm-landscape"
+baseurl: "/landscape-for-arm"
 highlighter: rouge
 sass:
   sass_dir: assets/scss
