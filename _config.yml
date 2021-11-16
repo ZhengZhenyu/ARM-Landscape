@@ -1,15 +1,12 @@
 # User config
-author: "Zhenyu Zheng"
-title: "Landscape"
+author: "MulanOS"
+title: "木兰Aarch64开源生态全景平台"
 tagline: "Landscape"
 description: "Landscape"
 keywords: "Landscape"
-email: "zheng.zhenyu@outlook.com"
-github: "https://kunpengcompute.github.io/"
-issue: "https://github.com/kunpengcompute/arm-landscape/issues"
 
 # Site config
-baseurl: "/arm-landscape"
+baseurl: ""
 highlighter: rouge
 sass:
   sass_dir: assets/scss
