@@ -6,7 +6,7 @@ description: "Landscape"
 keywords: "Landscape"
 
 # Site config
-baseurl: ""
+baseurl: "/landscape-for-arm"
 highlighter: rouge
 sass:
   sass_dir: assets/scss
