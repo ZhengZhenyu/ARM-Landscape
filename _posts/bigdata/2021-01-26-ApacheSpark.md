@@ -9,8 +9,8 @@ meta:
 project:
   title: "Apache Spark"
   type: "Java"
-  ci_url: "https://amplab.cs.berkeley.edu/jenkins/label/spark-arm/"
-  url: "https://amplab.cs.berkeley.edu/jenkins/label/spark-arm/"
+  ci_url: "https://spark.apache.org/docs/3.0.1/"
+  url: "https://spark.apache.org/docs/3.0.1/"
   logo: "/assets/images/bigdata/spark/logo.png"
 
 ---

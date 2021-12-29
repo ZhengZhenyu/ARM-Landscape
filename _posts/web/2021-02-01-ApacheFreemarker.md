@@ -9,8 +9,8 @@ meta:
 project:
   title: "FreeMarker"
   type: "Java"
-  ci_url: "https://travis-ci.com/github/apache/freemarker"
-  url: "https://travis-ci.com/github/apache/freemarker"
+  ci_url: "https://app.travis-ci.com/github/apache/freemarker"
+  url: "https://app.travis-ci.com/github/apache/freemarker"
   logo: "/assets/images/web/freemarker/logo.png"
 
 ---

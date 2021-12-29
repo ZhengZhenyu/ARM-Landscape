@@ -9,8 +9,8 @@ meta:
 project:
   title: "RocketMQ"
   type: "Java"
-  ci_url: "https://travis-ci.org/github/apache/rocketmq"
-  url: "https://travis-ci.org/github/apache/rocketmq"
+  ci_url: "https://app.travis-ci.com/github/apache/rocketmq/builds"
+  url: "https://app.travis-ci.com/github/apache/rocketmq/builds"
   logo: "/assets/images/web/rocketmq/logo.jpg"
 
 ---

@@ -9,8 +9,8 @@ meta:
 project:
   title: "GlusterFS"
   type: "C"
-  ci_url: "https://download.gluster.org/pub/gluster/glusterfs/LATEST/Fedora/f33/aarch64"
-  url: "https://download.gluster.org/pub/gluster/glusterfs/LATEST/Fedora/f33/aarch64"
+  ci_url: "https://download.gluster.org/pub/gluster/glusterfs/LATEST/Fedora/fedora-33/aarch64/"
+  url: "https://download.gluster.org/pub/gluster/glusterfs/LATEST/Fedora/fedora-33/aarch64/"
   logo: "/assets/images/cloud/glusterfs/logo.png"
 
 ---
